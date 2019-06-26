@@ -1,0 +1,63 @@
+.pageTitle {
+	font-family:sans-serif;
+	font-weight:600;
+	margin-bottom:30px;
+	margin-top:20px;
+	text-align:center;
+}
+.title {
+	text-align: center;
+	margin-top: 10px;
+	font-family: sans-serif;
+}
+th, td {
+	border: 1px solid black;
+	padding: 10px;
+  }
+
+
+table {
+	height:300px;
+	width: 75%;
+	overflow-x:auto;
+	display:block;
+	overflow-y:auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.collapsible {
+  background-color:white;
+  color:black;
+  cursor: pointer;
+  padding: 2px;
+  width: 100%;
+  border: 1px solid rgb(206, 212, 218);
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.active, .collapsible:hover {
+  background-color:white;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color:white;
+}
+
+.splitpara {
+	display: block;
+	margin: 10px;
+}
+
+.splitpara span {
+	display: block;
+	float: right;
+	width: 2%;
+	margin-left: 10px;
+}
